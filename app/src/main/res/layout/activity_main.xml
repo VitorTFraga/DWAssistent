@@ -11,17 +11,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp"
+        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
         android:clickable="true"
-        app:srcCompat="@drawable/ic_add_char_foreground" />
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_add_char_foreground"
+        tools:ignore="ImageContrastCheck"
+        android:importantForAccessibility="no" />
 
     <ListView
         android:id="@+id/activity_main_lista_de_personagens"
-        android:layout_width="485dp"
-        android:layout_height="736dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:ignore="AdapterViewChildren">
 
     </ListView>
